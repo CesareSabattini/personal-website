@@ -1,0 +1,49 @@
+
+[
+    {
+        "title": "Personal Website",
+        "image":"personalwb",
+        "description": "This website is a personal project that I created to showcase my work and experience. It is built using React, and is hosted on GitHub Pages.",
+        "github": "",
+        "techs": ["react", "js", "html", "css"]
+    },
+    {
+        "title": "Stainless Plugins",
+        "image":"stainlessplugins",
+        "description": "Inactive online marketplace where I sell custom JUCE plugins.",
+        "github": "",
+        "techs": ["juce", "cpp"]
+    },
+    {
+        "title": "Stainless Distortion",
+        "image":"stainlessdistortion",
+        "description": " Multiband distortion plugin fully coded in C++, using JUCE framework.",
+        "github": "",
+        "techs": ["juce", "cpp"]
+    },
+    {
+        "title": "PioneerGDB",
+        "image":"pioneergdb",
+        "description":" Online C-C++ compiler and debugger.",
+        "github": "",
+        "techs": [ "cpp", "js", "html", "css", "node", "express", "mongo"]
+    },
+    {
+        "title": "Formulari Minimali",
+        "image":"formulariminimali",
+        "description": "Everything you need to pass a physics exam at Alma Mater Studiorum - Università di Bologna.",
+        "github": "",
+        "techs": ["html", "css", "latex"]
+    },
+    {
+        "title": "Triangular Pool",
+        "image":"triangularpool",
+        "description": "C++ Simulator of the dynamics of a ball in a triangular pool, computing statistical distributions of the output coordinates.",
+        "github": "",
+        "techs": ["cpp", "sfml"]
+        
+    }
+
+
+
+]
