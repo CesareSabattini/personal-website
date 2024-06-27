@@ -3,47 +3,46 @@
     {
         "title": "Personal Website",
         "image":"personalwb",
-        "description": "This website is a personal project that I created to showcase my work and experience. It is built using React, and is hosted on GitHub Pages.",
-        "github": "",
+        "description": "Minimal front end website, fully coded in React, to showcase my experience and expose my contact information.",
+        "link": "https://github.com/CesareSabattini/personal-website",
         "techs": ["react", "js", "html", "css"]
     },
     {
         "title": "Stainless Plugins",
         "image":"stainlessplugins",
         "description": "Inactive online marketplace where I sell custom JUCE plugins.",
-        "github": "",
+        "link": "https://github.com/CesareSabattini/Stainless-Plugins",
         "techs": ["juce", "cpp"]
     },
     {
         "title": "Stainless Distortion",
         "image":"stainlessdistortion",
         "description": " Multiband distortion plugin fully coded in C++, using JUCE framework.",
-        "github": "",
-        "techs": ["juce", "cpp"]
+        "link": "",
+        "techs": ["cpp", "juce"]
     },
     {
         "title": "PioneerGDB",
         "image":"pioneergdb",
         "description":" Online C-C++ compiler and debugger.",
-        "github": "",
+        "link": "https://pioneer-gdb.vercel.app/",
         "techs": [ "cpp", "js", "html", "css", "node", "express", "mongo"]
     },
     {
         "title": "Formulari Minimali",
         "image":"formulariminimali",
         "description": "Everything you need to pass a physics exam at Alma Mater Studiorum - Università di Bologna.",
-        "github": "",
+        "link": "https://github.com/CesareSabattini/Formulari-Minimali",
         "techs": ["html", "css", "latex"]
     },
+ 
     {
-        "title": "Triangular Pool",
-        "image":"triangularpool",
-        "description": "C++ Simulator of the dynamics of a ball in a triangular pool, computing statistical distributions of the output coordinates.",
-        "github": "",
-        "techs": ["cpp", "sfml"]
+        "title": "JUCE DJ application",
+        "image":"jucedjapp",
+        "description": "DJ application featuring dsp powered effects and a custom GUI, fully coded in C++.",
+        "link": "    https://github.com/CesareSabattini/JUCE_Dj_Application",
+        "techs": ["cpp", "juce"]
         
     }
-
-
 
 ]

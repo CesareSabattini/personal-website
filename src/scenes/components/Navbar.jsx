@@ -18,7 +18,9 @@ const Navbar = () => {
   
   "
     >
-      <div className="text-2xl font-bold">Personal Website</div>
+      <a className="text-2xl font-bold" href="/">
+        Personal Website
+      </a>
       <div className="flex space-x-4">
         <a
           href="/"
@@ -56,27 +58,9 @@ const Navbar = () => {
         >
           About
         </a>
-        <a
-          href="#"
-          className="
-            text-lg
-            font-semibold
-            text-gray-800
 
-            hover:text-black
-            transition
-            duration-300
-            ease-in-out
-            transform
-
-            hover:-translate-y-1
-            hover:scale-110
-            "
-        >
-          Projects
-        </a>
         <a
-          href="#"
+          href="/contacts"
           className="
             text-lg
             font-semibold

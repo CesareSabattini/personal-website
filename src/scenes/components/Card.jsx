@@ -12,11 +12,10 @@ import juce from "../../assets/techs/JUCE.png";
 import stainlessplugins from "../../assets/projects/stainlessplugins.png";
 import stainlessdistortion from "../../assets/projects/stainlessdistortion.png";
 import pioneergdb from "../../assets/projects/pioneergdb.png";
+import personalwb from "../../assets/projects/personalwb.png";
+import jucedjapp from "../../assets/projects/jucedjapp.png";
 
-const Card = (
-  { title, description, github, image, index, techs },
-  ...props
-) => {
+const Card = ({ title, description, link, image, index, techs }, ...props) => {
   return (
     <div
       className="
@@ -31,8 +30,12 @@ const Card = (
     ease-in-out
     transform
     hover:-translate-y-1
-    hover:scale-110
+   hover:scale-105
+    cursor-pointer
     "
+      onClick={() => {
+        window.location.href = link;
+      }}
     >
       <h2
         className="
@@ -71,15 +74,24 @@ xl:gap-4
               ? stainlessdistortion
               : image === "pioneergdb"
               ? pioneergdb
+              : image === "personalwb"
+              ? personalwb
+              : image === "formulariminimali"
+              ? latex
+              : image === "jucedjapp"
+              ? jucedjapp
               : ""
           }
-          className="
+          className={`
             mt-4
             
             rounded-lg
             w-full
             h-48
-            object-cover
+           
+            ${
+              image === "formulariminimali" ? "object-contain" : " object-cover"
+            }
             
             sm:col-span-2
             sm:row-span-3
@@ -87,7 +99,7 @@ xl:gap-4
             md:row-span-3
 
 
-            "
+            `}
         />
         <div
           className="
@@ -165,8 +177,8 @@ xl:gap-4
                       : ""
                   }
                   className="
-                     w-8
-                     h-8
+                     w-10
+                     h-10
                      "
                 />
               </li>
