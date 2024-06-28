@@ -1,0 +1,70 @@
+[
+    {
+        "name": "React",
+        "level": "",
+        "projects": ["personal-website", "pioneergdb", "stainlessplugins"],
+        "image": "react"
+    },
+    {
+        "name": "C++",
+        "level": "",
+        
+        "projects": ["stainlessdistortion", "jucedjapp", "stainlessplugins"],
+        "image": "cpp"
+    },
+    {
+        "name": "JUCE",
+        "level": "",
+        "projects": ["stainlessdistortion", "stainlessplugins", "jucedjapp"],
+        "image": "juce"
+    },
+    {
+        "name": "HTML",
+        "level": "",
+        "projects": ["personal-website", "pioneergdb", "formulariminimali"],
+        "image": "html"
+    },
+    {
+        "name": "CSS",
+        "level": "",
+        "projects": ["personal-website", "pioneergdb", "formulariminimali"],
+        "image": "css"
+    },
+    {
+        "name": "JS",
+        "level": "",
+                "projects": ["personal-website", "pioneergdb"],
+        "image": "js"
+    },
+    {
+        "name": "Node",
+        "level": "",
+        
+        "projects": ["pioneergdb"],
+        "image": "node"
+    },
+    {
+        "name": "Express",
+        "level": "",
+       
+        "projects": ["pioneergdb"],
+        "image": "express"
+    },
+    {
+        "name": "Mongo",
+        "level": "",
+       
+        "projects": ["pioneergdb"],
+        "image": "mongo"
+    },
+    {
+        "name": "Latex",
+        "level": "",
+        
+        "projects": ["formulariminimali"],
+        "image": "latex"
+    }
+
+
+    
+]

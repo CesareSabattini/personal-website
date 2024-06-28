@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar";
+import Techs from "./components/Techs";
 
 const About = () => {
   return (
@@ -15,6 +16,7 @@ const About = () => {
     "
     >
       <Navbar />
+      <Techs />
     </div>
   );
 };

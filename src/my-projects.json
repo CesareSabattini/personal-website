@@ -1,12 +1,6 @@
 
 [
-    {
-        "title": "Personal Website",
-        "image":"personalwb",
-        "description": "Minimal front end website, fully coded in React, to showcase my experience and expose my contact information.",
-        "link": "https://github.com/CesareSabattini/personal-website",
-        "techs": ["react", "js", "html", "css"]
-    },
+
     {
         "title": "Stainless Plugins",
         "image":"stainlessplugins",
@@ -27,6 +21,13 @@
         "description":" Online C-C++ compiler and debugger.",
         "link": "https://pioneer-gdb.vercel.app/",
         "techs": [ "cpp", "js", "html", "css", "node", "express", "mongo"]
+    },
+    {
+        "title": "Personal Website",
+        "image":"personalwb",
+        "description": "Minimal front end website, fully coded in React, to showcase my experience and expose my contact information.",
+        "link": "https://github.com/CesareSabattini/personal-website",
+        "techs": ["react", "js", "html", "css"]
     },
     {
         "title": "Formulari Minimali",

@@ -19,7 +19,11 @@ const Navbar = () => {
   "
     >
       <a className="text-2xl font-bold" href="/">
-        Personal Website
+        {window.location.pathname === "/about"
+          ? "About"
+          : window.location.pathname === "/contacts"
+          ? "Contacts"
+          : "Personal Website"}
       </a>
       <div className="flex space-x-4">
         <a
