@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import html from "../../assets/techs/html.png";
 import css from "../../assets/techs/css.png";
 import js from "../../assets/techs/js.png";
@@ -15,7 +15,9 @@ import pioneergdb from "../../assets/projects/pioneergdb.png";
 import personalwb from "../../assets/projects/personalwb.png";
 import jucedjapp from "../../assets/projects/jucedjapp.png";
 
-const Card = ({ title, description, link, image, index, techs }, ...props) => {
+const Card = ({ title, description, link, image, techs }) => {
+  const [showDescription, setShowDescription] = useState(false);
+
   return (
     <div
       className="
@@ -30,7 +32,7 @@ const Card = ({ title, description, link, image, index, techs }, ...props) => {
     ease-in-out
     transform
     hover:-translate-y-1
-   hover:scale-105
+    hover:scale-105
     cursor-pointer
     "
       onClick={() => {
@@ -53,17 +55,13 @@ const Card = ({ title, description, link, image, index, techs }, ...props) => {
         text-lg
         font-semibold
         flex
-grid 
-sm:grid-cols-5
-md:grid-cols-5
-sm:gap-1
-md:gap-1
-lg:gap-3
-xl:gap-4
-
-        
-
-      
+        grid 
+        sm:grid-cols-5
+        md:grid-cols-5
+        sm:gap-1
+        md:gap-1
+        lg:gap-3
+        xl:gap-4
       "
       >
         <img
@@ -84,71 +82,68 @@ xl:gap-4
           }
           className={`
             mt-4
-            
             rounded-lg
-            w-full
-            h-48
-           
+            xs:h-[15vh]
+            xs:w-[25vh]
+            xs:mx-auto
+            sm:w-full
+            sm:h-48
             ${
               image === "formulariminimali" ? "object-contain" : " object-cover"
             }
-            
             sm:col-span-2
             sm:row-span-3
             md:col-span-2
             md:row-span-3
-
-
-            `}
+          `}
         />
         <div
-          className="
-        mt-4
-        flex
-        justify-center
-        items-center
-        sm:col-span-3
-        sm:col-start-3
-        sm:row-start-1
-         md:col-span-3
-        md:col-start-3
-        md:row-start-1
-
+          className={`
+            mt-4
+            flex
+            justify-center
+            items-center
             
-        "
+            sm:col-span-3
+            sm:col-start-3
+            sm:row-start-1
+            md:col-span-3
+            md:col-start-3
+            md:row-start-1
+            ${showDescription ? "xs:flex" : "xs:hidden"}
+            sm:flex
+            xs:text-sm
+            xs:text-center
+            sm:text-lg
+            sm:text-left
+          `}
         >
           {description}
         </div>
         {
           <ul
             className="
-           flex
+             
              space-x-5
              w-full
              border-b
-          
-           
              border-white
-        
-          
              py-3
              flex
-                justify-center
-             
+             justify-center
              sm:col-span-3
              sm:col-start-3
-            sm:row-start-3
-               md:col-span-3
+             sm:row-start-3
+             md:col-span-3
              md:col-start-3
-            md:row-start-3
-            
-           
+             md:row-start-3
            "
           >
             {techs.map((tech, index) => (
               <li
                 key={index}
-                onClick={() => {
+                onClick={(e) => {
+                  e.stopPropagation(); // To prevent triggering the parent onClick
                   console.log(tech);
                 }}
               >
@@ -172,20 +167,43 @@ xl:gap-4
                       ? latex
                       : tech === "cpp"
                       ? cpp
-                      : "juce"
+                      : tech === "juce"
                       ? juce
                       : ""
                   }
                   className="
                      w-10
                      h-10
-                     "
+                   "
                 />
               </li>
             ))}
           </ul>
         }
       </div>
+      <button
+        className="
+       flex
+       justify-center
+       items-center
+       w-[90%]
+       mx-auto
+       h-10
+        sm:hidden
+        mt-2
+        p-2
+        text-blue-800
+        text-xs
+        text-black
+        rounded
+        "
+        onClick={(e) => {
+          e.stopPropagation();
+          setShowDescription(!showDescription);
+        }}
+      >
+        {showDescription ? "Hide Description" : "Show Description..."}
+      </button>
     </div>
   );
 };

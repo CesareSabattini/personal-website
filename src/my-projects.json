@@ -4,7 +4,7 @@
     {
         "title": "Stainless Plugins",
         "image":"stainlessplugins",
-        "description": "Inactive online marketplace where I sell custom JUCE plugins.",
+        "description": "Online marketplace for plugin selling.",
         "link": "https://github.com/CesareSabattini/Stainless-Plugins",
         "techs": ["juce", "cpp"]
     },
@@ -25,7 +25,7 @@
     {
         "title": "Personal Website",
         "image":"personalwb",
-        "description": "Minimal front end website, fully coded in React, to showcase my experience and expose my contact information.",
+        "description": "Frontend website, to showcase my experience and expose my contact informations.",
         "link": "https://github.com/CesareSabattini/personal-website",
         "techs": ["react", "js", "html", "css"]
     },

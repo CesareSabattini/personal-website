@@ -12,6 +12,7 @@ const About = () => {
     from-green-400
     to-blue-500
     text-white
+    pt-20
     
     "
     >

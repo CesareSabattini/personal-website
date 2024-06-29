@@ -1,65 +1,78 @@
 [
     {
         "name": "React",
-        "level": "",
-        "projects": ["personal-website", "pioneergdb", "stainlessplugins"],
+        "type": ["frontend"],    
+        "projects": ["personalwb", "pioneergdb", "stainlessplugins"],
         "image": "react"
     },
     {
+        "name": "TailwindCSS",
+        "type": ["frontend"],   
+        "projects": ["personalwb", "pioneergdb", "stainlessplugins"],
+        "image": "tailwind"
+    },
+    {
         "name": "C++",
-        "level": "",
+      "type":["other"],
         
         "projects": ["stainlessdistortion", "jucedjapp", "stainlessplugins"],
         "image": "cpp"
     },
     {
         "name": "JUCE",
-        "level": "",
+      "type":["other"],
         "projects": ["stainlessdistortion", "stainlessplugins", "jucedjapp"],
         "image": "juce"
     },
     {
         "name": "HTML",
-        "level": "",
-        "projects": ["personal-website", "pioneergdb", "formulariminimali"],
+        "type":["frontend"],
+      
+        "projects": ["personalwb", "pioneergdb", "formulariminimali"],
         "image": "html"
     },
     {
         "name": "CSS",
-        "level": "",
-        "projects": ["personal-website", "pioneergdb", "formulariminimali"],
+        "type":["frontend"],
+      
+        "projects": ["personalwb", "pioneergdb", "formulariminimali"],
         "image": "css"
     },
     {
         "name": "JS",
-        "level": "",
-                "projects": ["personal-website", "pioneergdb"],
+        "type":["frontend", "backend"],
+      
+                "projects": ["personalwb", "pioneergdb"],
         "image": "js"
     },
     {
         "name": "Node",
-        "level": "",
+        "type":["backend"],
+      
         
         "projects": ["pioneergdb"],
         "image": "node"
     },
     {
         "name": "Express",
-        "level": "",
+        "type":["backend"],
+      
        
         "projects": ["pioneergdb"],
         "image": "express"
     },
     {
         "name": "Mongo",
-        "level": "",
+        "type":["backend"],
+      
        
         "projects": ["pioneergdb"],
         "image": "mongo"
     },
     {
         "name": "Latex",
-        "level": "",
+        "type":["other"],
+      
         
         "projects": ["formulariminimali"],
         "image": "latex"
