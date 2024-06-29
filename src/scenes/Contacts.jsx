@@ -160,7 +160,7 @@ const Contacts = () => {
            p-4
         xs:text-sm
         
-           shadow-xl  text-center w-[60vh] xs:w-[70vw] mx-auto  my-auto xs:mt-[5vh] rounded-xl
+           shadow-xl  text-center xs:w-[70vw] sm:w-[60vw] mx-auto  my-auto xs:mt-[5vh] rounded-xl
        
           gap-4
 

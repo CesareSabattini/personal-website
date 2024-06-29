@@ -57,7 +57,7 @@ const Techs = () => {
         font-mono
       "
       >
-        Tech/{selectedType}
+        Techs/{selectedType}
       </h1>
       <div
         className="
