@@ -28,6 +28,7 @@ const Contacts = () => {
     text-white
     font-mono
     pt-10
+
     
   
   "
@@ -45,10 +46,11 @@ const Contacts = () => {
       >
         <div
           className="bg-gradient-to-r from-pink-500 to-yellow-400 shadow-xl h-[40vh] w-[60vh] xs:w-[70vw] mx-auto  my-auto xs:mt-[10vh] rounded-xl
+          
           grid 
           grid-cols-1
           gap-4
-
+lg:grid-cols-3
 "
         >
           <div
@@ -65,10 +67,11 @@ const Contacts = () => {
             hover:rounded-md
             hover:p-1
             hover:translate-x-1
-          cursor-pointer
-            
+          cursor-pointer            
             hover:text-black
             hover:shadow-xl
+            lg:text-xl
+            lg:flex-col
 
             "
             onClick={() => {
@@ -81,6 +84,10 @@ const Contacts = () => {
               className="
             h-10
             w-10
+
+            lg:h-20
+            lg:w-20
+        
 
             "
             />
@@ -102,6 +109,8 @@ const Contacts = () => {
             
             hover:text-black
             hover:shadow-xl
+              lg:text-xl
+            lg:flex-col
 
             "
             onClick={() =>
@@ -114,6 +123,8 @@ const Contacts = () => {
               className="
             h-10
             w-10
+            lg:h-20
+            lg:w-20
             rounded-full
 
             
@@ -132,6 +143,8 @@ const Contacts = () => {
             hover:rounded-md
             hover:p-1
             hover:translate-x-1
+              lg:text-xl
+            lg:flex-col
           
             
             hover:text-black
@@ -147,6 +160,8 @@ const Contacts = () => {
               className="
             h-10
             w-10
+            lg:h-20
+            lg:w-20
             
             
             "
