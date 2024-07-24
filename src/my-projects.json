@@ -44,6 +44,14 @@
         "link": "    https://github.com/CesareSabattini/JUCE_Dj_Application",
         "techs": ["cpp", "juce"]
         
+    },
+
+    {
+        "title": "PowerShell Scripts",
+        "image":"powershell",
+        "description": "Collection of scripts to automate tasks on Windows OS.",
+        "link": "https://github.com/CesareSabattini/powershell-scripts",
+        "techs": ["powershell"]
     }
 
 ]

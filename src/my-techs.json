@@ -76,6 +76,14 @@
         
         "projects": ["formulariminimali"],
         "image": "latex"
+    },
+
+    {
+        "name": "PowerShell",
+        "type":["other"],
+
+        "projects": ["powershell-scripts"],
+        "image": "powershell"
     }
 
 

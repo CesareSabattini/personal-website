@@ -9,11 +9,13 @@ import mongo from "../../assets/techs/mongo.png";
 import latex from "../../assets/techs/latex.png";
 import cpp from "../../assets/techs/cpp.png";
 import juce from "../../assets/techs/JUCE.png";
+import powershell from "../../assets/techs/powershell.png";
 import stainlessplugins from "../../assets/projects/stainlessplugins.png";
 import stainlessdistortion from "../../assets/projects/stainlessdistortion.png";
 import pioneergdb from "../../assets/projects/pioneergdb.png";
 import personalwb from "../../assets/projects/personalwb.png";
 import jucedjapp from "../../assets/projects/jucedjapp.png";
+import powershellscript from "../../assets/projects/powershell-scripts.png";
 
 const Card = ({ title, description, link, image, techs }) => {
   const [showDescription, setShowDescription] = useState(false);
@@ -78,6 +80,8 @@ const Card = ({ title, description, link, image, techs }) => {
               ? latex
               : image === "jucedjapp"
               ? jucedjapp
+              : image === "powershell"
+              ? powershellscript
               : ""
           }
           className={`
@@ -169,6 +173,8 @@ const Card = ({ title, description, link, image, techs }) => {
                       ? cpp
                       : tech === "juce"
                       ? juce
+                      : tech === "powershell"
+                      ? powershell
                       : ""
                   }
                   className="
